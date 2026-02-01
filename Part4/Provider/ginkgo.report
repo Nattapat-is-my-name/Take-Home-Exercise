@@ -1,0 +1,511 @@
+[
+  {
+    "SuitePath": "/Users/nattapat/Desktop/Exercise/Provider",
+    "SuiteDescription": "Provider Suite",
+    "SuiteLabels": [],
+    "SuiteSemVerConstraints": [],
+    "SuiteComponentSemVerConstraints": {},
+    "SuiteSucceeded": true,
+    "SuiteHasProgrammaticFocus": false,
+    "SpecialSuiteFailureReasons": null,
+    "PreRunStats": {
+      "TotalSpecs": 3,
+      "SpecsThatWillRun": 3
+    },
+    "StartTime": "2026-02-01T19:30:06.788183+07:00",
+    "EndTime": "2026-02-01T19:30:06.78951+07:00",
+    "RunTime": 1327208,
+    "SuiteConfig": {
+      "RandomSeed": 1769949005,
+      "RandomizeAllSpecs": false,
+      "FocusStrings": [
+        "PaymentAPI"
+      ],
+      "SkipStrings": null,
+      "FocusFiles": null,
+      "SkipFiles": null,
+      "LabelFilter": "",
+      "SemVerFilter": "",
+      "FailOnPending": false,
+      "FailOnEmpty": false,
+      "FailFast": false,
+      "FlakeAttempts": 0,
+      "MustPassRepeatedly": 0,
+      "DryRun": false,
+      "PollProgressAfter": 0,
+      "PollProgressInterval": 0,
+      "Timeout": 3598795070334,
+      "EmitSpecProgress": false,
+      "OutputInterceptorMode": "",
+      "SourceRoots": null,
+      "GracePeriod": 30000000000,
+      "ParallelProcess": 1,
+      "ParallelTotal": 1,
+      "ParallelHost": ""
+    },
+    "SpecReports": [
+      {
+        "ContainerHierarchyTexts": [
+          "CallPaymentAPI",
+          "Fail CallPaymentAPI"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+            "LineNumber": 17
+          },
+          {
+            "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+            "LineNumber": 34
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          []
+        ],
+        "ContainerHierarchySemVerConstraints": [
+          [],
+          []
+        ],
+        "ContainerHierarchyComponentSemVerConstraints": [
+          {},
+          {}
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+          "LineNumber": 35
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeSemVerConstraints": [],
+        "LeafNodeText": "should return error when call external api was timeout",
+        "State": "passed",
+        "StartTime": "2026-02-01T19:30:06.788339+07:00",
+        "EndTime": "2026-02-01T19:30:06.788978+07:00",
+        "RunTime": 639250,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 24
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2026-02-01T19:30:06.788461+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 24
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2026-02-01T19:30:06.788591+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 129459,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 35
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2026-02-01T19:30:06.788594+07:00"
+            },
+            "Message": "should return error when call external api was timeout",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 35
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2026-02-01T19:30:06.788779+07:00"
+            },
+            "Message": "should return error when call external api was timeout",
+            "Duration": 185125,
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 30
+            },
+            "TimelineLocation": {
+              "Order": 7,
+              "Time": "2026-02-01T19:30:06.788782+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "AfterEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 30
+            },
+            "TimelineLocation": {
+              "Order": 9,
+              "Time": "2026-02-01T19:30:06.788824+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 42291,
+            "NodeType": "AfterEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/go/pkg/mod/go.uber.org/mock@v0.6.0/gomock/controller.go",
+              "LineNumber": 97
+            },
+            "TimelineLocation": {
+              "Order": 10,
+              "Time": "2026-02-01T19:30:06.788826+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "DeferCleanup (Each)"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/go/pkg/mod/go.uber.org/mock@v0.6.0/gomock/controller.go",
+              "LineNumber": 97
+            },
+            "TimelineLocation": {
+              "Order": 12,
+              "Time": "2026-02-01T19:30:06.788977+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 150541,
+            "NodeType": "DeferCleanup (Each)"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "CallPaymentAPI",
+          "Fail CallPaymentAPI"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+            "LineNumber": 17
+          },
+          {
+            "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+            "LineNumber": 34
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          []
+        ],
+        "ContainerHierarchySemVerConstraints": [
+          [],
+          []
+        ],
+        "ContainerHierarchyComponentSemVerConstraints": [
+          {},
+          {}
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+          "LineNumber": 47
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeSemVerConstraints": [],
+        "LeafNodeText": "should return error when external api return is not ok",
+        "State": "passed",
+        "StartTime": "2026-02-01T19:30:06.788998+07:00",
+        "EndTime": "2026-02-01T19:30:06.789148+07:00",
+        "RunTime": 149750,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 24
+            },
+            "TimelineLocation": {
+              "Order": 13,
+              "Time": "2026-02-01T19:30:06.789001+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 24
+            },
+            "TimelineLocation": {
+              "Order": 15,
+              "Time": "2026-02-01T19:30:06.789032+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 30625,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 47
+            },
+            "TimelineLocation": {
+              "Order": 16,
+              "Time": "2026-02-01T19:30:06.789033+07:00"
+            },
+            "Message": "should return error when external api return is not ok",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 47
+            },
+            "TimelineLocation": {
+              "Order": 18,
+              "Time": "2026-02-01T19:30:06.789083+07:00"
+            },
+            "Message": "should return error when external api return is not ok",
+            "Duration": 49875,
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 30
+            },
+            "TimelineLocation": {
+              "Order": 19,
+              "Time": "2026-02-01T19:30:06.789084+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "AfterEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 30
+            },
+            "TimelineLocation": {
+              "Order": 21,
+              "Time": "2026-02-01T19:30:06.789105+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 21041,
+            "NodeType": "AfterEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/go/pkg/mod/go.uber.org/mock@v0.6.0/gomock/controller.go",
+              "LineNumber": 97
+            },
+            "TimelineLocation": {
+              "Order": 22,
+              "Time": "2026-02-01T19:30:06.789107+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "DeferCleanup (Each)"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/go/pkg/mod/go.uber.org/mock@v0.6.0/gomock/controller.go",
+              "LineNumber": 97
+            },
+            "TimelineLocation": {
+              "Order": 24,
+              "Time": "2026-02-01T19:30:06.789147+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 39875,
+            "NodeType": "DeferCleanup (Each)"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "CallPaymentAPI",
+          "Success CallPaymentAPI"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+            "LineNumber": 17
+          },
+          {
+            "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+            "LineNumber": 66
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          []
+        ],
+        "ContainerHierarchySemVerConstraints": [
+          [],
+          []
+        ],
+        "ContainerHierarchyComponentSemVerConstraints": [
+          {},
+          {}
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+          "LineNumber": 67
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeSemVerConstraints": [],
+        "LeafNodeText": "should return payment response when call external api success",
+        "State": "passed",
+        "StartTime": "2026-02-01T19:30:06.789167+07:00",
+        "EndTime": "2026-02-01T19:30:06.789501+07:00",
+        "RunTime": 333250,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 24
+            },
+            "TimelineLocation": {
+              "Order": 25,
+              "Time": "2026-02-01T19:30:06.78917+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 24
+            },
+            "TimelineLocation": {
+              "Order": 27,
+              "Time": "2026-02-01T19:30:06.789195+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 24667,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 67
+            },
+            "TimelineLocation": {
+              "Order": 28,
+              "Time": "2026-02-01T19:30:06.789196+07:00"
+            },
+            "Message": "should return payment response when call external api success",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 67
+            },
+            "TimelineLocation": {
+              "Order": 30,
+              "Time": "2026-02-01T19:30:06.789464+07:00"
+            },
+            "Message": "should return payment response when call external api success",
+            "Duration": 268000,
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 30
+            },
+            "TimelineLocation": {
+              "Order": 31,
+              "Time": "2026-02-01T19:30:06.789465+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "AfterEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/Desktop/Exercise/Provider/payment_api_provider_test.go",
+              "LineNumber": 30
+            },
+            "TimelineLocation": {
+              "Order": 33,
+              "Time": "2026-02-01T19:30:06.789476+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 10458,
+            "NodeType": "AfterEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/go/pkg/mod/go.uber.org/mock@v0.6.0/gomock/controller.go",
+              "LineNumber": 97
+            },
+            "TimelineLocation": {
+              "Order": 34,
+              "Time": "2026-02-01T19:30:06.789478+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "NodeType": "DeferCleanup (Each)"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/Users/nattapat/go/pkg/mod/go.uber.org/mock@v0.6.0/gomock/controller.go",
+              "LineNumber": 97
+            },
+            "TimelineLocation": {
+              "Order": 36,
+              "Time": "2026-02-01T19:30:06.789499+07:00"
+            },
+            "Message": "CallPaymentAPI",
+            "Duration": 21583,
+            "NodeType": "DeferCleanup (Each)"
+          }
+        ]
+      }
+    ]
+  }
+]
